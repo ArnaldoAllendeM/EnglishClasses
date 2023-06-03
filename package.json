@@ -1,11 +1,10 @@
 {
   "name": "agency-template",
-  "private": true,
   "version": "1.0.3",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "sass": "^1.62.1",
-    "vite": "^4.3.2"
-  }
+    "vite": "^4.3.2",
+    "vue-cli-plugin-netlify-lambda": "~0.1.1"
+  },
+  "type": "module"
 }
